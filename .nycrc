@@ -1,0 +1,21 @@
+{
+  "all": true,
+  "skip-full": false,
+
+  "reporter": [
+    "html",
+    "text-summary"
+  ],
+
+  "exclude": [
+    "**/*.d.ts",
+    "**/coverage/**",
+    "**/test/**"
+  ],
+
+  "check-coverage": true,
+  "lines": 100,
+  "statements": 100,
+  "functions": 100,
+  "branches": 100
+}
