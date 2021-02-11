@@ -20,12 +20,12 @@
   ],
   "scripts": {
     "build": "npm run eslint && tsc",
+    "clear-dist": "rimraf dist",
     "eslint": "eslint --config .eslintrc.json src/** test/**",
     "watch-ts": "tsc --watch",
     "test": "nyc --all mocha --recursive ./dist/test",
     "test-watch": "mocha --inspect --watch --recursive ./dist/test"
   },
-  "dependencies": {},
   "devDependencies": {
     "@types/chai": "^4.2.14",
     "@types/mocha": "^8.2.0",
@@ -35,6 +35,7 @@
     "eslint": "^7.19.0",
     "mocha": "^8.2.1",
     "nyc": "^15.1.0",
+    "rimraf": "^3.0.2",
     "typescript": "^4.1.3"
   }
 }
