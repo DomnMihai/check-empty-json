@@ -1,12 +1,12 @@
 {
-  "name": "check-empty-json",
+  "name": "check-empty-json-test-1",
   "version": "0.0.1",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "author": {
-    "name": "DomnMihai"
+    "name": "Mihai Pruteanu"
   },
-  "license": "N/A",
+  "license": "ISC",
   "repository": {
     "url": "https://github.com/DomnMihai/check-empty-json",
     "type": "git"
@@ -17,6 +17,10 @@
     "empty",
     "null",
     "undefined"
+  ],
+  "files": [
+    "dist/src",
+    "README.MD"
   ],
   "scripts": {
     "build": "npm run eslint && tsc",
