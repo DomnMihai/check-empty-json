@@ -74,4 +74,9 @@ describe('Test check empty utils', () => {
     should().equal(checkingResult, false);
   });
 
+  it('Should recognize array with {} object', () => {
+    const checkingResult: boolean = isArrayEmpty([{}]);
+    should().equal(checkingResult, false);
+  });
+
 });

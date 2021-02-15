@@ -60,4 +60,5 @@ isArrayEmpty([]); // returns true
 isArrayEmpty([1, 30, 'text', {}]); // returns false
 isArrayEmpty([null]); // returns false
 isArrayEmpty([undefined]); // returns false
+isArrayEmpty([{}]); // returns false
 ```
