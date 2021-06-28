@@ -11,8 +11,8 @@ The package already contains Typescript **\*.d.ts** definition files.
 ```js
 const checkEmptyJson = require('check-empty-json');
 
-const jsonStatus = emptyJson.isJsonEmpty({}); // returns true
-const arrayStatus = emptyJson.isArrayEmpty(['element 1']); // returns false
+const jsonStatus = checkEmptyJson.isJsonEmpty({}); // returns true
+const arrayStatus = checkEmptyJson.isArrayEmpty(['element 1']); // returns false
 ```
 
 ## typescript
